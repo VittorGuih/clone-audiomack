@@ -102,7 +102,7 @@ footer {
     margin-top: 0;
     background-image: url(../imgs/intro-section-image.jpg);
     background-size: cover;
-    width: auto%;
+    width: auto;
     /* height: 320px; */
 }
 .intro-container .bottom-line-intro-container .bottom-line {
