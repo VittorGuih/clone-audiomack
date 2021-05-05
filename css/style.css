@@ -154,7 +154,7 @@ footer {
     background-size: auto;
     background-repeat: no-repeat;
 } */
-/* .final-container {
+.final-container {
     background-image: url(../imgs/final-section.jpg);
     background-repeat: no-repeat;
     height: 210px;
@@ -166,4 +166,4 @@ footer {
 }
 .final-container-text {
     padding-top: 60px;
-} */
+}
