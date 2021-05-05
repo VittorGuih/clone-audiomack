@@ -1,8 +1,10 @@
 :root {
     --defaultYellow: rgb(255, 201, 60);
+    /* #ffc93c; */
 }
 .header-fixed-top {
     position: sticky;
+    top: 0;
 }
 
 #nav-link-header {
@@ -39,15 +41,15 @@
 }
 .container .our-history p,
 li {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--white);
 }
 .container .our-history h6 {
     font-weight: bold;
     letter-spacing: 1.5px;
 }
-.container .our-history .bottom-line {
-    border-top: solid 2px var(--defaultYellow);
+.container .bottom-line {
+    border-top: solid 2.5px var(--defaultYellow);
     width: 3rem;
     margin-left: 0;
 }
@@ -57,6 +59,9 @@ li {
 } */
 footer {
     background: black;
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
 .our-history:first-child {
     width: 400px;
@@ -67,7 +72,7 @@ footer {
 .social-media-icon {
     display: flex;
     border: solid 2px var(--defaultYellow);
-    padding: 12px 16px;
+    padding: 10px 16px;
     cursor: pointer;
     justify-content: center;
     align-items: center;
@@ -85,7 +90,80 @@ footer {
 .footer-bottom {
     font-size: 0.8rem;
     background: var(--defaultYellow);
+    color: black;
+    width: 100%;
 }
-.aaa {
-    height: 50vh;
+
+/* Fim do Footer */
+
+/* Intro Section */
+
+.intro-container {
+    margin-top: 0;
+    background-image: url(../imgs/intro-section-image.jpg);
+    background-size: cover;
+    width: auto%;
+    /* height: 320px; */
 }
+.intro-container .bottom-line-intro-container .bottom-line {
+    border-color: white;
+    border-width: 2.5px;
+}
+.intro-container .intro-text {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+.intro-subtext {
+    padding: 0px;
+    font-size: 0.8rem;
+    width: 300px;
+}
+.intro-subtext p:before,
+.intro-subtext p:after {
+    content: '"';
+}
+.intro-reference-name {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-orcamento-container .btn {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    border-width: 2px;
+    border-radius: 0px;
+}
+.btn-orcamento-container .btn:hover {
+    background-color: rgb(240, 238, 238);
+    transition: 0.7s ease all;
+}
+
+/* Fim da intro section */
+
+/* .img-teste {
+    background-image: url(../imgs/intro-section.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100vw;
+    height: 20vh;
+} */
+/* .final {
+    background-image: url(../imgs/final-section.jpg);
+    background-position-x: (100%);
+    background-size: auto;
+    background-repeat: no-repeat;
+} */
+/* .final-container {
+    background-image: url(../imgs/final-section.jpg);
+    background-repeat: no-repeat;
+    height: 210px;
+    background-position: center;
+    width: auto;
+}
+.final-container-text .bottom-line {
+    border-color: white;
+}
+.final-container-text {
+    padding-top: 60px;
+} */
